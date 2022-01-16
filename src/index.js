@@ -1,10 +1,12 @@
 function changeHeadingColor(){
     let h1 = document.getElementById("matey")
-    h1.addEventListener('click', colorChange(h1))
+    h1.addEventListener('click', colorChange)
 }
 
-function colorChange(element){
-    element.style.color = 'green'
+function colorChange(){
+    let h1 = document.getElementById("matey")
+
+    matey.style.color = 'blue'
 }
 
 changeHeadingColor()
